@@ -1,0 +1,30 @@
+{
+  "name": "touchDrag.js",
+  "version": "1.0.0",
+  "description": "Easy draggable elements for touch devices",
+  "main": "touchDrag.js",
+  "author": "Gijs Rogé <rogegijs@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gijsroge/touchDrag/issues"
+  },
+  "homepage": "https://github.com/gijsroge/touchDrag",
+  "files": ["touchDrag.js"],
+  "keywords": [
+    "touch",
+    "drag",
+    "collapse",
+    "mobile",
+    "javascript"
+  ],
+  "devDependencies": {
+    "webpack": "^4.0.0-beta.3",
+    "webpack-cli": "^2.0.10",
+    "html-webpack-plugin": "^3.0.6",
+    "webpack-dev-server": "^3.1.0"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  }
+}
